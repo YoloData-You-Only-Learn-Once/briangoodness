@@ -1,0 +1,22 @@
+
+Exercise #1:
+
+https://www.hackerrank.com/challenges/placements
+
+SELECT 
+Students.Name
+FROM Friends INNER JOIN Students ON Friends.ID=Students.ID
+INNER JOIN Packages as a ON Students.ID=a.ID
+INNER JOIN Packages as b ON Friends.Friend_ID=b.ID
+WHERE b.Salary>a.Salary
+ORDER BY b.Salary;
+
+
+Exercise #2:
+
+https://www.hackerrank.com/challenges/interviews
+
+Exercise #3:
+
+https://www.hackerrank.com/challenges/15-days-of-learning-sql
+
